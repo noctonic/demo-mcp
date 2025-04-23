@@ -1,0 +1,4 @@
+mcp>=1.6.0
+starlette~=0.37
+aiofiles>=0.8
+uvicorn[standard]~=0.29
