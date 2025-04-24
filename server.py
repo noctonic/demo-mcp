@@ -85,7 +85,7 @@ async def get_schema(table: str) -> dict:
 
 # Progress Demonstration Tool
 @mcp.tool()
-async def long_task(ctx: Context, duration: int = 30) -> str:
+async def long_task(ctx: Context, duration: int) -> str:
     print("USED LONG TASK",flush=True)
     """Simulate a long-running task, reporting progress over 'duration' seconds."""
     request_id = ctx.request_id
